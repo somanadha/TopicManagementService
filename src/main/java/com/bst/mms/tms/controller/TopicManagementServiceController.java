@@ -27,6 +27,7 @@ public class TopicManagementServiceController {
         }
         catch (Exception exception) {
             httpStatus = HttpStatus.INTERNAL_SERVER_ERROR;
+            System.out.println("Exception:"+exception.getMessage());
         }
         finally {
             questionResponseEntity = new ResponseEntity<>(topicCreated, httpStatus);
@@ -46,6 +47,7 @@ public class TopicManagementServiceController {
         }
         catch (Exception exception) {
             httpStatus = HttpStatus.INTERNAL_SERVER_ERROR;
+            System.out.println("Exception:"+exception.getMessage());
         }
         finally {
             questionResponseEntity = new ResponseEntity<>(topic, httpStatus);
@@ -64,6 +66,7 @@ public class TopicManagementServiceController {
         }
         catch (Exception exception) {
             httpStatus = HttpStatus.INTERNAL_SERVER_ERROR;
+            System.out.println("Exception:"+exception.getMessage());
         }
         finally {
             questionResponseEntity = new ResponseEntity<>(topic, httpStatus);
@@ -84,6 +87,7 @@ public class TopicManagementServiceController {
         }
         catch (Exception exception) {
             httpStatus = HttpStatus.INTERNAL_SERVER_ERROR;
+            System.out.println("Exception:"+exception.getMessage());
         }
         finally {
             topicListResponseEntity = new ResponseEntity<>(topicList, httpStatus);
