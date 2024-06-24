@@ -8,7 +8,6 @@ public class TopicManagementServiceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(TopicManagementServiceApplication.class, args);
-		System.out.println("Tomcat Running for Topic Management Service...");
-
+		System.out.println("Tomcat Running For Topic Management Service...");
 	}
 }
